@@ -1,0 +1,11 @@
+<Context>
+	<Resource name = "jdbc/vishipel"
+	auth="Container" type="javax.sql.DataSource"
+	maxActive="25" maxIdle="10" maxWait="10000"
+        maxTotal="50" removeAbandonedTimeout="300" 
+        defaultAutoCommit="true"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        username="root" password="admin"
+        driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/vishipel"/>
+</Context>
