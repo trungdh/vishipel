@@ -1,10 +1,61 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Vishipel Company</title>
-</head>
-<body>
-	<h1>Index</h1>
-</body>
+﻿<!DOCTYPE html PUBLIC 
+          "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+
+    <link rel="shortcut icon" media="screen,print" href="Images/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/index.css" />
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/header.css" />
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/footer.css" />
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/customer-info.css" />
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/sat-sms.css"/>
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/login-news.css"/>
+    <link type="text/css" rel="Stylesheet" media="screen,print" href="CSS/invoice.css"/>         
+	
+	<!-- loginFB -->
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    
+    <!-- loginGG -->    
+	<meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="123186829247-v8fhokg2paacqve9r78p42l5fimsvjvj.apps.googleusercontent.com">
+  </head>
+  <body onload="add_header();
+                add_footer();
+                add_body();">
+    
+    <div class="page-content">
+	    <div id="header"></div>
+	    <div id="content" class="body-content"></div>
+	    <div id="footer"></div>    
+    </div>
+
+    
+	<!-- <script type="text/javascript" defer="defer" src="Scripts/jquery-3.3.1.min.js"></script> -->
+	<script type="text/javascript" defer="defer" src="Scripts/pdf.js"></script>
+	<script type="text/javascript" defer="defer" src="Scripts/pdf.worker.js"></script>
+	
+	<script type="text/javascript" defer="defer" src="Scripts/index.js"></script>
+    <script type="text/javascript" defer="defer" src="Scripts/place_in_outerHTML.js"></script>
+    <script type="text/javascript" defer="defer" src="Scripts/IO.js"></script>
+   	<script type="text/javascript" defer="defer" src="Scripts/add_footer.js"></script>
+    <script type="text/javascript" defer="defer" src="Scripts/add_header.js"></script>
+    <script type="text/javascript" defer="defer" src="Scripts/login_news.js"></script>
+    <script type="text/javascript" defer="defer" src="Scripts/customer_info.js"></script>
+    <script type="text/javascript" defer="defer" src="Scripts/invoice.js"></script>
+        
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap Date-Picker Plugin -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  </body>
 </html>

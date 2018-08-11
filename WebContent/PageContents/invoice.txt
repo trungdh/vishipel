@@ -1,0 +1,72 @@
+
+<div id="invoice" class="content-invoice-page">
+	
+	<div class="title">INVOICE</div>
+	<div class="invoice-contents">
+	
+		<table class="time-table">
+				<tbody>
+					<tr>
+						<td>
+						<div class="input-append date" id="datepicker" data-date="07-2018" 
+							 data-date-format="mm-yyyy">			
+							<input id="input-time" class="input-time" type="text" readonly="true" name="date" >    
+							<span class="add-on"><i class="icon-th"></i></span>      
+						</div>
+						<script type="text/javascript">
+							$("#datepicker").datepicker( {
+								language: 'en',
+				        	    format: "mm-yyyy",
+				        	    viewMode: "mm", 
+				        	    minViewMode: "months"
+				        	}).on('changeMonth', function(event) {
+				        		$("#datepicker").datepicker('hide');
+				        	});				        	
+						</script>
+						</td>
+						<td>
+							<button id="btn-invoice" class="invoice-btn btn btn-primary" type="button" onClick="handleReport()">Invoice</button>
+						</td>
+					</tr>
+					
+				</tbody>
+		</table>
+		
+		<div id="invoice-error" class="invoice-error"></div>
+		
+		<div style="display: none;" id="invoice-content">
+			<div class="invoice-title">List invoices</div>
+			
+			<table class="detail-table">
+				<tbody>
+					<tr id="invoiceRow">
+						<td>
+							<div id="titleInvoice" style="float: left; padding: 5px;"></div>
+						</td>
+						<td>
+							<a id="viewInvoice" href="" target="_blank">View</a>
+						</td>
+						<td>
+							<a id="downInvoice" href="">Download</a>
+						</td>
+					</tr>
+					<tr id="invoiceDetailRow">
+						<td>
+							<div id="titleDetailInvoice" style="float: left; padding: 5px;"></div>
+						</td>
+						<td>
+							<a id="viewDetailInvoice" href="" target="_blank">View</a>
+						</td>
+						<td>
+							<a id="downDetailInvoice" href="">Download</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<img id="loading-image" src="Images/ic_loading.gif"/>
+		
+	</div>
+	
+</div>

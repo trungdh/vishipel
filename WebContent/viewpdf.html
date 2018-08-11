@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>Example</title>
+<script type="text/javascript">
+	var getpdf = function getPdf(){
+		var request = new XMLHttpRequest();
+		request.open("GET", "http://173.199.126.96:8082/Vishipel/rest/postage?customer=875536544392&type=2&month=03&year=2018", true); 
+		request.responseType = "blob";
+		request.onload = function (e) {
+		    if (this.status === 200) {
+		        // `blob` response
+		        console.log(this.response);
+		        // create `objectURL` of `this.response` : `.pdf` as `Blob`
+		        var blob = new Blob([this.response], {type: 'application/pdf'});
+		        var file = window.URL.createObjectURL(blob);
+		        document.getElementById("pdflink").href=file;
+		        document.getElementById("pdflink").innerHTML = this.response.name || "detail"
+		       
+		        // remove `a` following `Save As` dialog, 
+		        // `window` regains `focus`
+		        window.onfocus = function () {                     
+		          document.body.removeChild($("a"))
+		        }
+		    };
+		};
+		request.send();
+	}
+	
+	/* var viewpdf = function viewPDF() {
+		 //document.getElementById("pdflink").download = "detailsPDF.pdf";
+		 window.open(document.getElementById("pdflink").href,'_blank')
+	} */
+</script>
+</head>
+<body>
+	<div id='dataFormContainer'></div>
+	<form>
+		<input type='button' value='getPDF' onClick='getpdf();'>
+	</form>
+	
+	<a id ="pdflink">test</a>
+</body>
+</html>

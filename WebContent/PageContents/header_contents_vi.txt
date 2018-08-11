@@ -1,0 +1,26 @@
+<div id="header" class="header">
+	<div class="header-logo">
+		<a href="{{SiteLogoTarget}}" >
+			<img class="header-icon" alt="Site Logo" src="{{SiteLogo}}" />
+		  </a>
+	</div>
+	<div class="header-title">
+		<div>{{PageHeader}}</div>
+		<div>{{PageSubHeader}}</div>
+	</div>
+	<div class="header-menu">
+		<div class="header-menu-language">			
+			<img id="lang-img" class="lang-img" src="Images/gb.svg" onClick=change_language()></img>
+			<div id="lang-title" style="{{TitleLang}}" class="lang-title">Tiếng việt &nbsp;</div>
+			<div id="user-info" style="{{UserInfo}}" class="user-info">
+				<span>KH: {{UserCode}}</span>
+				<button class="btn-logout" onClick=onLogout()>Thoát&nbsp;</button>				
+			</div>		
+		</div>
+		<div id="header-menu-content" style="{{SiteMenu}}" class="header-menu-content">
+			<a id="header_customer" onClick=go_customer_info()>Thông tin khách hàng</a>
+			<a id="header_invoice" onClick=go_invoice()>Tra cứu cước</a>
+			<a id="header_sms" onClick=go_sat_sms()>Gửi tin nhắn Inmarsat</a>
+		</div>
+	</div>
+</div>

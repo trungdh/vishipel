@@ -1,0 +1,50 @@
+
+	<div id="customer-info" class="customer-info" onload="loadInfo();">
+		<div class="title">THÔNG TIN KHÁCH HÀNG</div>
+		<div class="customer-contents">
+			<div class="info-row">
+				<div class="info-label">Mã khách hàng:&nbsp;</div>
+				<span id="MAKH" class="info-text"></span>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Họ tên:&nbsp;</div>
+				<div id="TENKH" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Địa chỉ:&nbsp;</div>
+				<div id="DIACHI" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Điện thoại:&nbsp;</div>
+				<div id="DIENTHOAI" class="info-text"></div>
+				<div class="info-label">Fax:&nbsp;</div>
+				<div id="FAX" class="info-text"></div>
+				<div class="info-label">Email:&nbsp;</div>
+				<div id="EMAIL" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Mã số thuế:&nbsp;</div>
+				<div id="TAXCODE" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Số tài khoản (VND):&nbsp;</div>
+				<div id="ACCOUNTNUMBER" class="info-text"></div>
+				<div class="info-label">BIDV:&nbsp;</div>
+				<div id="BANK" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Đại diện:&nbsp;</div>
+				<div id="DAIDIEN" class="info-text"></div>
+				<div class="info-label">Chức vụ:&nbsp;</div>
+				<div id="CHUCVU" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Chứng minh thư:&nbsp;</div>
+				<div id="IDNUMBER" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Thư ủy quyền:&nbsp;</div>
+				<div id="AUTHOR" class="info-text"></div>
+			</div>
+		</div>
+	</div>

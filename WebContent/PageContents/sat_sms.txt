@@ -1,0 +1,42 @@
+ÿþ<div id="content" class="body-content">
+<div class="sat-sms">
+		<div class="title">SatSMS - FREE SMS TO INMARSAT SATELLITE EQUIPMENT</div>
+		<div class="sat-contents">
+			<div class="sat-row">
+        <div class="sat-label"></div>
+        <div class="sat-content sat-notice">(Please enter information in all fields)</div>
+      </div>
+      <div class="sat-row">
+        <div class="sat-label">Inmarsat number receiver:</div>
+        <div class="sat-content"><input type="text" class="form-control"/></div>
+      </div>
+      <div class="sat-row">
+        <div class="sat-label">Email/Tel send:</div>
+        <div class="sat-content"><input type="text" class="form-control"/></div>
+      </div>
+      <div class="sat-row">
+        <div class="sat-label">Security code:</div>
+        <div class="sat-content"><input type="text" class="form-control"/></div>
+      </div>
+      <div class="sat-row sat-row-msg">
+        <div class="sat-label">Content:</div>
+        <div class="sat-content">
+          <textarea class="form-control" rows="5" id="messageText"></textarea>
+        </div>
+      </div>
+      <div class="sat-row">
+        <div class="sat-label"></div>
+        <div class="sat-content sms-notice">Number characters remaining: 160</div>
+      </div>
+      <div class="sat-row">
+        <div class="sat-label"></div>
+        <div class="sat-content">
+          <div class="sat-group-button">
+            <button class="btn btn-primary mr-5">Send SMS</button>
+            <button class="btn btn-primary">Cancel</button>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+</div

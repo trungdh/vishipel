@@ -1,0 +1,10 @@
+<div class="footer">
+	<div class="footer-margin">
+		<div class="footer-title footer-center">CÔNG TY THHH MTV THÔNG TIN ĐIỆN TỬ HÀNG HẢI VIỆT NAM</div>
+		<div class="footer-center">Địa chỉ: Số 2 Nguyễn Thượng Hiền, Phố Minh Khai, Quận Hồng Bàng, Thành phố Hải Phòng, Việt Nam</div>
+		<div class="footer-center">
+			<strong>Chăm sóc khách hàng:</strong>
+			Điện thoại: +84-(0)-225-3569330 *Fax: +84-(0)-225-3842073 *Email: customercare@vishipel.com.vn
+		</div>
+	</div>
+</div>

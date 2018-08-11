@@ -1,0 +1,39 @@
+
+.customer-info {
+	height: 100%;
+	width: 100%;
+	background-color: #E0F0FA;
+	font-family: sans-serif;
+	position: relative;
+}
+.customer-contents {
+	margin: auto;
+    width: 1100px;
+}
+.info-title {
+	color: #003A82;
+    font-size: 26px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.info-contents {
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.info-row {
+	width: 100%;
+	height: 32px;
+	margin: 30px 0;
+	font-size: 24px
+}
+.info-label {
+	float: left;
+	margin-left: 40px;
+}
+.info-text {
+	float: left;
+	margin-left: 10px
+	max-width: 70%;
+}

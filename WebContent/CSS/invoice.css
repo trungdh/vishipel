@@ -1,0 +1,71 @@
+.content-invoice-page{
+	width: 100%;
+    background-color: #E0F0FA;
+    font-family: sans-serif;
+}
+
+.invoice-contents {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+.time-table {
+	width: 200px;
+	margin: 20px auto;
+}
+
+.detail-table {
+	width: 100%;
+    margin: 20px auto;
+}
+
+.detail-table td{
+	border: 1px solid black;
+}
+
+
+.invoice-contents img {
+	width: 100px;
+}
+
+.invoice-contents .viewer-pdf {
+    text-align: center;
+    max-height: 1100px;
+    overflow-y: scroll;
+}
+
+.invoice-contents .viewer-pdf object {
+	width: 100%;
+	height: 100%;
+}
+
+.invoice-download-btn-group {
+	float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 130px 0;
+    display: none;
+}
+
+.invoice-btn-groups{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.invoice-btn{
+	font-size: 12px;
+}
+
+.invoice-title {
+	float: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.input-time {
+	width: 300px;
+}
+.invoice-error {
+	color: red;
+}

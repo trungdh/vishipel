@@ -1,0 +1,50 @@
+
+	<div id="customer-info" class="customer-info">
+		<div class="title">CUSTOMER INFOMATION</div>
+		<div class="customer-contents">
+			<div class="info-row">
+				<div class="info-label">Customer code:&nbsp;</div>
+				<span id="MAKH" class="info-text"></span>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Customer:&nbsp;</div>
+				<div id="TENKH" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Address:&nbsp;</div>
+				<div id="DIACHI" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Tel/Mobile:&nbsp;</div>
+				<div id="DIENTHOAI" class="info-text"></div>
+				<div class="info-label">Fax:&nbsp;</div>
+				<div id="FAX" class="info-text"></div>
+				<div class="info-label">Email:&nbsp;</div>
+				<div id="EMAIL" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Tax code:&nbsp;</div>
+				<div id="TAXCODE" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Account number (VND):&nbsp;</div>
+				<div id="ACCOUNTNUMBER" class="info-text"></div>
+				<div class="info-label">BIDV:&nbsp;</div>
+				<div id="BANK" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Representative:&nbsp;</div>
+				<div id="DAIDIEN" class="info-text"></div>
+				<div class="info-label">Title:&nbsp;</div>
+				<div id="CHUCVU" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Identity card:&nbsp;</div>
+				<div id="IDNUMBER" class="info-text"></div>
+			</div>
+			<div class="info-row">
+				<div class="info-label">Authority letter:&nbsp;</div>
+				<div id="AUTHOR" class="info-text"></div>
+			</div>
+		</div>
+	</div>

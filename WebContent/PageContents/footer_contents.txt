@@ -1,0 +1,10 @@
+﻿<div class="footer">
+	<div class="footer-margin">
+		<div class="footer-title footer-center">VIET NAM MARITIME COMMUNICATION AND ELECTRONICS LLC</div>
+		<div class="footer-center">Add: No2 Nguyen Thuong Hien, Minh Khai Ward, Hong Bang District, Hai Phong City, VietNam</div>
+		<div class="footer-center">
+			<strong>Customercare:</strong>
+			Tel: +84-(0)-225-3569330 *Fax: +84-(0)-225-3842073 *Email: customercare@vishipel.com.vn
+		</div>
+	</div>
+</div>

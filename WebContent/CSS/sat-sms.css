@@ -1,0 +1,51 @@
+.sat-sms {
+	height: 100%;
+	width: 100%;
+	background-color: #E0F0FA;
+	font-family: sans-serif;
+	position: relative;
+}
+.sat-contents {
+  width: 1100px;
+  margin: auto;
+  font-size: 32px;
+}
+.sat-row {
+	margin-bottom: 10px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.sat-row-msg {
+	height: 120px !important;
+}
+.sat-label {
+  width: 40%;
+  height: 100%;
+  float: left;
+  text-align: right;
+}
+.sat-content {
+  width: 60%;
+  float: left;
+  padding-left: 20px;
+}
+.sat-notice {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.sms-notice {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 20px;
+}
+.sat-group-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.sat-group-button button {
+  font-size: 26px !important;
+}

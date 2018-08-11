@@ -1,0 +1,26 @@
+﻿<div id="header" class="header">
+	<div class="header-logo">
+		<a href="{{SiteLogoTarget}}" >
+			<img class="header-icon" alt="Site Logo" src="{{SiteLogo}}" />
+		  </a>
+	</div>
+	<div class="header-title">
+		<div>{{PageHeader}}</div>
+		<div>{{PageSubHeader}}</div>
+	</div>
+	<div class="header-menu">
+		<div class="header-menu-language">			
+			<img id="lang-img" class="lang-img" src="Images/vn.svg" onClick=change_language()></img>
+			<div id="lang-title" style="{{TitleLang}}" class="lang-title">English&nbsp;</div>
+			<div id="user-info" style="{{UserInfo}}" class="user-info">
+				<span>User: {{UserCode}}</span>
+				<button class="btn-logout" onClick=onLogout()>Logout&nbsp;</button>				
+			</div>
+		</div>
+		<div id="header-menu-content" style="{{SiteMenu}}" class="header-menu-content">
+			<a id="header_customer" onClick=go_customer_info()>Customer information</a>
+			<a id="header_invoice" onClick=go_invoice()>Invoice</a>
+			<a id="header_sms" onClick=go_sat_sms()>Inmarsat SMS</a>		
+		</div>
+	</div>
+</div>

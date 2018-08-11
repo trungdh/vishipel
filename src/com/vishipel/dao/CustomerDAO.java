@@ -7,7 +7,7 @@ public interface CustomerDAO {
 	
 	public Response getCustomer(String p_MaKH);
 	
-	public Response createCustomer(Customer customer);
+	public Customer createCustomer(Customer customer);
 	
 	public Response updateCustomer(Customer customer);
 	

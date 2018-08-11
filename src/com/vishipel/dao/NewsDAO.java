@@ -10,6 +10,8 @@ public interface NewsDAO {
 	
 	public Response getNews(int p_id);
 	
+	public Response getNewsByType(String type);
+	
 	public Response createNews(News p_news);
 	
 	public Response updateNews(News p_news);

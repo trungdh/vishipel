@@ -1,0 +1,72 @@
+
+<div id="invoice" class="content-invoice-page" onload="loadAccessToken();">
+	
+	<div class="title">TRA CỨU CƯỚC</div>
+	<div class="invoice-contents">
+	
+		<table class="time-table">
+				<tbody>
+					<tr>
+						<td>
+						<div class="input-append date" id="datepicker" data-date="07-2018" 
+							 data-date-format="mm-yyyy">			
+							<input id="input-time" class="input-time" type="text" readonly="readonly" name="date" >    
+							<span class="add-on"><i class="icon-th"></i></span>      
+						</div>
+						<script type="text/javascript">
+							$("#datepicker").datepicker( {
+								language: 'vi',
+				        	    format: "mm-yyyy",
+				        	    viewMode: "mm", 
+				        	    minViewMode: "months"
+				        	}).on('changeMonth', function(event) {
+				        		$("#datepicker").datepicker('hide');
+				        	});
+						</script>
+						</td>
+						<td>
+							<button id="btn-invoice" class="invoice-btn btn btn-primary" type="button" onClick="handleReport()">Tra cước</button>
+						</td>
+					</tr>
+					
+				</tbody>
+		</table>
+		
+		<div id="invoice-error" class="invoice-error"></div>
+		
+		<div style="display: none;" id="invoice-content">
+			<div class="invoice-title">Danh sách bảng cước</div>
+			
+			<table class="detail-table">
+				<tbody>
+					<tr id="invoiceRow">
+						<td>
+							<div id="titleInvoice" style="float: left; padding: 5px;">Invoices table 01/2018</div>
+						</td>
+						<td>
+							<a id="viewInvoice" href="" target="_blank">Xem</a>
+						</td>
+						<td>
+							<a id="downInvoice" href="">Tải về</a>
+						</td>
+					</tr>
+					<tr id="invoiceDetailRow">
+						<td>
+							<div id="titleDetailInvoice" style="float: left; padding: 5px;">Invoices detail table 01/2018</div>
+						</td>
+						<td>
+							<a id="viewDetailInvoice" href="" target="_blank">Xem</a>
+						</td>
+						<td>
+							<a id="downDetailInvoice" href="">Tải về</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<img id="loading-image" src="Images/ic_loading.gif"/>
+		
+	</div>
+	
+</div>
