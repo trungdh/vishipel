@@ -1,8 +1,7 @@
 # vishipel
 source code for vishipel project
 
-#I. Setup Enviroment
-Software install require
+#I.Software install require
 1. jdk-8u171
 2. jre-8u171
 3. Apache Tomcat 8 - version 8.0.53
