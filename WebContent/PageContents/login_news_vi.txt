@@ -56,24 +56,12 @@
 			<div class="news-box">
 			  <div class="news-title">Khuyến mãi</div>
 			  <div class="news-img"><img src="Images/km.PNG"/></div>
-			  <ul>
-				<li>Chương trình khuyến mãi khi mua máy nhận dạng tự động AIS</li>
-				<li>Khuyến mãi lên đến 2 triệu đồng khi mua thiết bị thông tin hàng hải</li>
-				<li>Miễn phí 1 năm sử dụng dịch vụ Quản lý tàu cận bờ khi mua thiết bị AIS</li>
-				<li>Công nghệ thông minh - sử dụng hiệu quả dịch vụ vệ tinh</li>
-				<li>Tặng cước dịch vụ viễn thông di động hàng hải khi mua thiết bị ICOM</li>
-			  </ul>
+			  <ul id="news-type1"></ul>
 			</div>
 			<div class="news-box">
 			  <div class="news-title">Tin sản phẩm - Dịch vụ</div>
 			  <div class="news-img"><img src="Images/news.PNG"/></div>
-			  <ul>
-				<li>Thông báo thời gian ngừng cung cấp dịch vụ Inmarsat F33, F55</li>
-				<li>Thông báo ngừng cung cấp dịch vụ Inmarsat B, GAN, mini-M</li>
-				<li>VISHIPEL được phép cung cấp dịch vụ truy cập Internet trên máy bay</li>
-				<li>Công bố tiêu chuẩn quốc gia về Dịch vụ thông tin LRIT</li>
-				<li>Dịch vụ thoại vệ tinh Inmarsat trả trước qua thẻ đa năng</li>
-			  </ul>
+			  <ul id="news-type2"></ul>
 			</div>
 	  </div>
     

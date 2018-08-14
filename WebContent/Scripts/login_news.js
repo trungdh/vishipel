@@ -5,6 +5,37 @@ function onLoadLogin() {
 		$('.login-page').hide();
 	}
 }
+
+function loadNews() {
+	$.ajax({
+        type: 'GET',
+        url: '/Vishipel/rest/news/all',
+        headers: { 'Content-Type':'application/json'},
+        success: function(response){
+        	var ul1 = document.getElementById("news-type1");
+        	var ul2 = document.getElementById("news-type2");
+        	
+        	if (response.length > 0) {
+        		for (var i = 0; i < response.length; i++) {
+        			var li = document.createElement("li");
+        			var a = document.createElement("a");
+        			a.appendChild(document.createTextNode(response[i].TITLE));
+        			a.href = response[i].LINK;
+        			li.appendChild(a);
+					if (response[i].LOAITIN == "1") {
+						ul1.appendChild(li);
+					} else if (response[i].LOAITIN == "2") {
+						ul2.appendChild(li);
+					}
+				}
+        	}        	
+        },
+        error : function(response){
+            console.log(response);
+        }
+      });
+}
+
 function onLogout() {
 	setCookie("email", "", 0);
 	setCookie("customer_code", "", 0);

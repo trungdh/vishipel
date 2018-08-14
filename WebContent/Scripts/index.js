@@ -136,6 +136,7 @@ function go_news () {
         	console.log("Load news success");
         	$('#loading-image').hide();
         	onLoadLogin();
+        	loadNews();
         if(statusTxt == "error")
         	console.log("Error: " + xhr.status + ": " + xhr.statusText);
     });
